@@ -9,7 +9,7 @@ services:
   # que ya contiene nuestra aplicación PHP.
   apache:
     # Usamos la imagen publicada en Docker Hub con nuestra aplicación
-    image: angelherreraallende/lamp-crud-app:latest
+    image: angelherreraallende/actividad61-aplicacion-crud-php:latest
 
     # Publica el puerto 80 del contenedor como 80 en la red del host de Docker
     ports:
